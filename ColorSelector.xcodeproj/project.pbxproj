@@ -15,6 +15,7 @@
 		8EECBA101BAF70CC00271BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EECBA0E1BAF70CC00271BB7 /* LaunchScreen.storyboard */; };
 		8EECBA1B1BAF70CC00271BB7 /* ColorSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EECBA1A1BAF70CC00271BB7 /* ColorSelectorTests.m */; };
 		8EECBA261BAF70CC00271BB7 /* ColorSelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EECBA251BAF70CC00271BB7 /* ColorSelectorUITests.m */; };
+		8EECBA351BAF72D200271BB7 /* ColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EECBA341BAF72D200271BB7 /* ColorManager.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8EECBA211BAF70CC00271BB7 /* ColorSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EECBA251BAF70CC00271BB7 /* ColorSelectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSelectorUITests.m; sourceTree = "<group>"; };
 		8EECBA271BAF70CC00271BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EECBA331BAF72D200271BB7 /* ColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorManager.h; sourceTree = "<group>"; };
+		8EECBA341BAF72D200271BB7 /* ColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				8EECBA061BAF70CC00271BB7 /* ViewController.h */,
 				8EECBA071BAF70CC00271BB7 /* ViewController.m */,
 				8EECBA091BAF70CC00271BB7 /* Main.storyboard */,
+				8EECBA331BAF72D200271BB7 /* ColorManager.h */,
+				8EECBA341BAF72D200271BB7 /* ColorManager.m */,
 				8EECBA0C1BAF70CC00271BB7 /* Assets.xcassets */,
 				8EECBA0E1BAF70CC00271BB7 /* LaunchScreen.storyboard */,
 				8EECBA111BAF70CC00271BB7 /* Info.plist */,
@@ -273,6 +278,7 @@
 				8EECBA081BAF70CC00271BB7 /* ViewController.m in Sources */,
 				8EECBA051BAF70CC00271BB7 /* AppDelegate.m in Sources */,
 				8EECBA021BAF70CC00271BB7 /* main.m in Sources */,
+				8EECBA351BAF72D200271BB7 /* ColorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
