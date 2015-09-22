@@ -36,6 +36,6 @@
 - (IBAction)buttonPressed:(id)sender {
     
     NSInteger tag = [sender tag];
-    myDisplay.text = [myColorManager.myColors objectAtIndex:tag];o
+    myDisplay.text = [myColorManager.myColors objectAtIndex:tag];
 }
 @end
